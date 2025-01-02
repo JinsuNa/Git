@@ -1,0 +1,46 @@
+작업 영역 : woring area
+관리 영역 : staging area
+저장 영역 : repository
+
+1. git init
+
+2. 관리 대상 파일을 선택  git add .   <-- 해당 파일의 모든건 git이 관리한다는 뜻
+
+3. 커밋 git commit -m 'message'
+커밋은 하나의 작업이 완료될 때 마다 진행하는 것이 일반적이다.
+ex) 로그인을 구현
+-- 모두 다 구현 후 커밋(검증 완료 후에 한방에 커밋)
+-- 작업단위마다 커밋(view 구현 후 커밋 or 서비스 구현 후 커밋 or 리포지토리 구현 후 커밋)
+
+위 둘 중 한개의 방법으로 커밋을 해야한다.  
+
+git status : git의 상태를 확인
+
+git log --all --oneline --graph :  commit된 로그를 확인한다.
+
+branch 생성방법
+git branch admin
+
+git checkout admin
+Switched to branch 'admin'
+
+git switch main
+Switched to branch 'main'
+
+git status
+On branch main
+nothing to commit, working tree clean
+
+git checkout admin
+Switched to branch 'admin'
+
+git status
+On branch admin
+nothing to commit, working tree clean
+
+합쳐질 대상이 있으면 main으로 다시 돌아가 merge를 한다. merge는 브런치와 main을 합치는 것
+git merge admin(브런치 이름)
+
+
+
+
