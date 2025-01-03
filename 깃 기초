@@ -44,3 +44,15 @@ git merge admin(브런치 이름)
 
 
 
+git을 올릴 때 gitignore 에 뭐가 들어갈 지 잘 모를 때는
+
+gitignore.io를 들어간다.
+
+windows, intellij+all, java, gradle(웹환경), react, vew (리엑트와 뷰는 사용할 때만 넣으면 된다.)
+
+그거를 해당 프로젝트 커밋을 하기 전에 .gitignore 맨 밑에 붙여넣기를 하면 된다.
+
+중복되어 충돌이 되도 괜찮다.
+
+
+
